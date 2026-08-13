@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmployeeDto {
+public class StudentDto {
     private Long id;
 
     @NotEmpty(message = "First name cannot be empty")
